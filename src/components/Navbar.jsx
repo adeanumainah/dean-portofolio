@@ -46,7 +46,7 @@ function Navbar({ darkMode, setDarkMode, language, setLanguage, t }) {
               Dean Umainah Zakaria
             </p>
             <p className="text-[11px] text-[#6B6A65] dark:text-[#A6A5A0]">
-              {t.nav.role ?? "Full Stack Developer"}
+              {t.nav.role ?? "Full Stack Developer "}
             </p>
           </div>
         </Link>
