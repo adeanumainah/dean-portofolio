@@ -1,8 +1,9 @@
 import { useEffect, useState, useRef } from "react"
 import { Link } from "react-router-dom"
 import heroImage from "../assets/poto.jpeg"
-import cvEn from "../assets/cv-dean-en.pdf"
-import cvId from "../assets/cv-dean-id.pdf"
+
+const cvEn = "/cv-dean-en.pdf"
+const cvId = "/cv-dean-id.pdf"
 
 function Hero({ t, language }) {
   const [roleIndex, setRoleIndex] = useState(0)
@@ -161,7 +162,7 @@ function Hero({ t, language }) {
               >
                 <a
                   href={cvEn}
-                  download="Dean-Umainah-Zakaria-CV-EN.pdf"
+                  download="CV_Dean_Umainah_Zakaria_FullStack_Developer.pdf"
                   className="flex items-center justify-between px-4 py-3 text-sm text-[#171717] transition-colors hover:bg-black/4 dark:text-[#F3F2EE] dark:hover:bg-white/5"
                 >
                   <span className="flex items-center gap-2">
@@ -175,7 +176,7 @@ function Hero({ t, language }) {
                 <div className="h-px bg-black/5 dark:bg-white/5" />
                 <a
                   href={cvId}
-                  download="Dean-Umainah-Zakaria-CV-ID.pdf"
+                  download="CV_Dean_Umainah_Zakaria_FullStack_Developer.pdf"
                   className="flex items-center justify-between px-4 py-3 text-sm text-[#171717] transition-colors hover:bg-black/4 dark:text-[#F3F2EE] dark:hover:bg-white/5"
                 >
                   <span className="flex items-center gap-2">
